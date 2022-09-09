@@ -1,0 +1,25 @@
+1. npx create-react-app appname
+2. required plugin
+   - react-router-dom
+   - react bootstrap react-bootstrap
+3. Icon
+  Best to use react-icon = over here option of material-design icon,font-awesome icon etc
+
+
+
+
+---question--
+1.  Difference between Link and Navlink in react-router-dom
+
+
+2. Redux
+Redux has (always) a single store.
+Whenever you want to replace the state in the store, you dispatch an action.
+The action is caught by one or more reducers.
+The reducer/s create a new state that combines the old state, and the dispatched action.
+The store subscribers are notified that there is a new state.
+
+3.
+redux: main library (independent from React)
+redux-thunk: a redux middleware which helps you with async actions
+react-redux: connects your redux store with ReactComponents

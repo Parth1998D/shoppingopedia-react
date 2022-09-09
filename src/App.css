@@ -1,0 +1,103 @@
+body {
+  margin:0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+ 
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.navbar a {
+  text-decoration: none;
+  color: grey;
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+}
+.card {
+  min-width: 250px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-img-top {
+  height: 200px;
+}
+.category button {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none !important;
+  color: grey !important;
+}
+a:hover{
+  color: black !important;
+}
+.title {
+  margin-top: 20px;
+  text-align: left;
+}
+.description {
+  margin-top:20px;
+}
+.rating {
+  margin-top: 20px;
+  text-align: left;
+}
+.product-detail {
+  padding:30px;
+}
+.btn-secondary {
+  color: white !important;
+}
+.btn-secondary:hover {
+  color: white !important;
+}
+.active{
+  color:black !important;
+}
+.cart-list {
+  background-color: grey;
+  height: 150px;
+  width: 600pxs;
+  margin-bottom: 30px;
+  padding:24px
+}
+.cart-image {
+  height: 80px;
+  width: 80px;
+}
+.card-bdy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap-tag {
+  padding: 0px !important;
+}
+.loaderWrap {
+  display: flex;
+  justify-content: center;
+  margin-top:10%
+}
+.loader {
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #804000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.brand-name {
+  color : #804000;
+  font-weight: bold;
+  font-family: "Comic Sans MS" ;
+}
